@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.header{
+    min-height: 120vh;
+    width: 100vw;
+    background-image: linear-gradient(#000000cc,#000000cc),url(/design_elements/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    z-index: 2;
+    width: 100%;
+    background-color: #272727;
+    position: fixed;
+    padding: 1.5%;
+    padding-left: 10%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    font-size: 25px;
+    text-decoration: none;
+    color: #14a76c;
+}
+.current{
+    border-bottom: 3px solid #ffe400;
+}
+.nav-links{
+    flex: 1;
+    display: flex;
+    padding-left: 35%;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 70px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.nav-links ul li a:hover{
+    color: #ff652f;
+    transition: .5s;
+    font-weight: bold;
+}
+.text-box{
+    width: 40%;
+    color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    text-align: left;
+}
+.text-box h1{
+    font-size: 60px;
+    font-style: normal;
+}
+.text-box p{
+    margin: 5px 0 40px;
+    font-size: 25px;
+    color: #fff;
+}  
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #272727;
+    border-radius: 5%;
+    padding: 12px 34px;
+    margin-right: 50px;
+    font-size: 22px;
+    background: #ffe400;
+    position: relative;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #14a76c;
+}
+.image{
+    position: absolute;
+    left:60%;
+    top:25%;
+}
+.image img{
+    width: 30vw;
+}
+.hobbies{
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+}
+.hobbies h1{
+    font-size: 60px;
+    font-style: normal;
+}
+.hobby{
+    display: inline-block;
+    padding: 80px 70px;
+    position: relative;
+}
+.hobby i{
+    font-size: 40px;
+    margin-top: 10%;
+    color: #14a76c;
+    margin-bottom: 40% ;
+}
+.hobby i:hover{
+    font-size: 60px;
+    color: #ff652f;
+    transition: .5s;
+}
+.hobby h3{
+    font-size: 30px;
+}
+/*Skills*/
+.skills{
+    width: 50%;
+    color: #fff;
+    top: 15%;
+    left: 25%;
+    position: absolute;
+    text-align: center;
+}
+.skills h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.skill{
+    display: flex;
+    text-align: left;
+    position: relative;
+}
+
+.skill i{
+    font-size: 40px;
+    margin-top: 0%;
+    color: #14a76c;    
+}
+.skill i:hover{
+    font-size: 60px;
+    color: #ff652f;
+    transition: .5s;
+}
+.skill h3{
+    font-size: 30px;
+    margin: 0px 30px;
+}
+progress {
+    display: inline;
+    margin-top:30px;
+    margin-bottom: 50px;
+    width: 80%;
+    height: 10px;
+    border-radius: 10px; 
+}
+
+progress::-webkit-progress-bar {
+    background-color: #D1D7ED;
+    border-radius: 10px;
+}
+progress::-webkit-progress-value {
+    background-color: #14a76c;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 3px green;
+}
