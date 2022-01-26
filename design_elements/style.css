@@ -4,8 +4,8 @@
     font-family: 'Roboto', sans-serif;
 }
 .header{
-    min-height: 120vh;
-    width: 100vw;
+    min-height: 1100px;
+    width: 100%;
     background-image: linear-gradient(#000000cc,#000000cc),url(/design_elements/bg.jpg);
     background-position: center;
     background-size: cover;
@@ -17,14 +17,15 @@ nav{
     width: 100%;
     background-color: #272727;
     position: fixed;
-    padding: 25px;
-    padding-left: 8%;
+    padding: 1.5%;
+    /* padding-left: 10%; */
+    justify-content: space-between;
     align-items: center;
 }
 nav a{
-    font-size: 25px;
     text-decoration: none;
-    color: #14a76c;
+    font-size: 25px;
+    color:#14a76c;
 }
 .current{
     border-bottom: 3px solid #ffe400;
@@ -32,7 +33,7 @@ nav a{
 .nav-links{
     flex: 1;
     display: flex;
-    padding-left: 35%;
+    justify-content: right;
 }
 .nav-links ul li{
     list-style: none;
@@ -43,7 +44,7 @@ nav a{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 26px;
+    font-size: 25px;
 }
 
 .nav-links ul li a:hover{
@@ -55,17 +56,17 @@ nav a{
     width: 40%;
     color: #fff;
     position: absolute;
-    top: 25%;
+    top: 15%;
     left: 10%;
     text-align: left;
 }
 .text-box h1{
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
 }
 .text-box p{
     margin: 5px 0 40px;
-    font-size: 25px;
+    font-size: 21px;
     color: #fff;
 }  
 .btn{
@@ -74,8 +75,8 @@ nav a{
     color: #272727;
     border-radius: 5%;
     padding: 12px 34px;
-    margin-right: 50px;
-    font-size: 22px;
+    margin-right: 5%;
+    font-size: 20px;
     background: #ffe400;
     position: relative;
     cursor: pointer;
@@ -86,25 +87,25 @@ nav a{
 .image{
     position: absolute;
     left:60%;
-    top:25%;
+    top:15%;
 }
 .image img{
-    width: 30vw;
+    width: 60%;
 }
 .hobbies{
     width: 100%;
     color: #fff;
     position: absolute;
-    top: 20%;
+    top: 15%;
     text-align: center;
 }
 .hobbies h1{
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
 }
 .hobby{
     display: inline-block;
-    padding: 80px 70px;
+    padding: 80px 5%;
     position: relative;
 }
 .hobby i{
@@ -119,20 +120,19 @@ nav a{
     transition: .5s;
 }
 .hobby h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 /*Skills*/
 .skills{
-    width: 50%;
+    width: 80%;
     color: #fff;
     top: 15%;
-    left: 25%;
+    left: 10%;
     position: absolute;
     text-align: center;
 }
 .skills h1{
-    font-size: 60px;
-    text-align: center;
+    font-size: 50px;
     margin-bottom: 50px;
 }
 .skill{
@@ -152,7 +152,7 @@ nav a{
     transition: .5s;
 }
 .skill h3{
-    font-size: 30px;
+    font-size: 25px;
     margin: 0px 30px;
 }
 progress {
